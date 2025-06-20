@@ -25,3 +25,17 @@ if user_age>=18:
  print("you are eligible to drive")
 if user_age<18:
  print("you are not eligible to drive")
+
+else:
+ print("you are not eligible to vote")
+ #get user age and check if they are eligible to drive
+ user_age=int(input("enter your age"))
+ if user_age>=18:
+  print("you are eligible to drive")
+  #program that asks user for a number if
+  #the number is even or odd
+  num=int(input("enter a number to check if even or odd"))
+  if num%2==0:
+   print("the number is even")
+  else:
+   print("the number is odd")
