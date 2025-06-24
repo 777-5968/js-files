@@ -52,4 +52,11 @@ def areaoftriangle(b, h):
 print("the area of the triangle is", areaoftriangle(10, 20))
 #calling the function
 areaoftriangle(10, 20)
+#function that calculates the area of a parallelogram(1/2*l*h)
+def areaofparallelogram(l, h):
+    return 1 / 2 * l * h
+print("the area of the parallelogram is", areaofparallelogram(30, 60))
+#calling the function
+areaofparallelogram(30, 60)
+
 
