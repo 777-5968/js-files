@@ -4,14 +4,14 @@
 from xlrd.formula import num2strg
 
 
-def myfuncton(g):
+def myfunction(g):
     return g*7
 #calling the function
-result=myfuncton(10)#store the returned value in a variable
+result=myfunction(10)#store the returned value in a variable
 print(result)
 #way 2
-print(myfuncton(40))
-print(myfuncton(70))
+print(myfunction(40))
+print(myfunction(70))
 #function that adds two numbers and returns the sum
 def addtwonumbers(num1,num2):
  sum=num1+num2

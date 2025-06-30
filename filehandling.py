@@ -14,7 +14,7 @@ j=(open("test.txt","r"))
 print(j.read())
 j.close()
 #create
-j=(open("red.txt","x"))
+j=(open("myproj.txt","x"))
 j.write("hello python students")
 j.close()
 #create a file demo.txt
@@ -22,7 +22,7 @@ j.close()
 #read the contents
 #append some data
 #create
-y=(open("demo.txt","x"))
+y=(open("code.txt","x"))
 y.write("hello python students")
 y.close()
 #read
@@ -37,4 +37,5 @@ j.close()
 j=(open("demo.txt","w"))
 j.write("hello world \n")
 j.close()
+
 
